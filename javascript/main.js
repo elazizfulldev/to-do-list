@@ -1,3 +1,8 @@
+
+if (localStorage.getItem("isLoggedIn") !== "true") {
+    window.location.href = "index.html";
+}
+
 document.getElementById("submit-button").addEventListener("click", function (e) {
     e.preventDefault();
     console.log("test");

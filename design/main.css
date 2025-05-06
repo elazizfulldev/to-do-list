@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background-color: #444;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 40%;
+    margin: auto;
+    margin-top: 25vh;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #555;
+    
+}
+
+.login .logo{
+    margin: auto;
+
+}
+
+.login .logo img{
+    width: 200px;
+}
+
+.login .insert-loging {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 15px;
+    margin: auto;
+}
+
+.login .insert-loging input , button {
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    
+ 
+    
+}
+
+.login button {
+    background-color: rgb(255, 115, 0);
+    color: #000000;
+    font-weight: 700;
+    transition: .3s;
+    
+}
+
+.login button:hover{
+    background-color: #444;
+    color: #fff;
+}

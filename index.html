@@ -3,67 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do list project using javascript</title>
+    <link rel="stylesheet" href="design/main.css">
+    <title>TO DO DASHBOARD</title>
 </head>
-<style>
-
-    .to-do-list{
-        display: flex;
-        gap: 10px;
-    }
-    form {
-        width: 30%;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        background-color: #eee;
-        padding:20px;
-        margin: 20px;
-        border-radius: 10px;
-    }
-    form input , select , textarea , button{
-        padding: 10px;
-    }
-    .content{
-        width: 60%;
-        height: 500px;
-        background-color: #eee;
-        padding:20px;
-        margin: 20px;
-        border-radius: 10px;
-    }
-    
-</style>
 <body>
+    <div class="login">
+        <div class="logo">
+            <img src="imgs/image.png" alt="">
+        </div>
+        <div class="insert-loging">
+            <input id="user" type="text" placeholder="Login">
+            <input id="pasword" type="password" placeholder="password">
+            <button id="sub-login">Login</button>
 
-
-    <div class="to-do-list">
-
-        <form action="" id="myform">
-            <label for="status">Your name:</label>
-            <input type="text" id="name" placeholder="Insert Your Name">
-            <label for="status">Discription:</label>
-            <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Add your plan to your to-do list"></textarea>
-            <label for="status">Date add:</label>
-            <input id="date" type="date">
-            <label for="status">Select Status:</label>
-            <select id="status" name="status">
-            <option value="not_started">Not Started</option>
-            <option value="in_progress">In Progress</option>
-            <option value="completed">Completed</option>
-            <option value="on_hold">On Hold</option>
-            <option value="cancelled">Cancelled</option>
-            </select>
-            <button id="submit-button">ADD TO DO LIST</button>
-        </form>
-        <div class="content" id="content"></div>
-    
-
+        </div>
     </div>
 
 
-    
-    <script src="javascript/main.js"></script>
+    <script src="javascript/login.js"></script>
     
 </body>
 </html>
